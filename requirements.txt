@@ -1,0 +1,10 @@
+aiogram>=3.0
+
+# Пакет для обхода блокировки через Cloudflare Worker
+# Устанавливается напрямую из GitHub, так как PyPI может быть недоступен
+git+https://github.com/winchanii/TgWsApiProxy
+
+# aiogram требует этот пакет для работы с прокси (даже HTTP)
+aiohttp-socks
+
+pydantic-settings

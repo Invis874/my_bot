@@ -1,0 +1,45 @@
+# ===== Секреты =====
+config/.env
+.env
+.env.*
+!.env.example
+
+# ===== Виртуальное окружение =====
+.venv/
+venv/
+env/
+ENV/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ===== Тесты и кэш =====
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ===== IDE / редакторы =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== Логи и локальные данные =====
+*.log
+logs/
+*.sqlite3
+*.db
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
